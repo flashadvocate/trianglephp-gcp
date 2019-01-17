@@ -1,0 +1,13 @@
+ runtime: php72
+
+ env_variables:
+   # Put production environment variables here.
+   APP_LOG: errorlog
+   APP_KEY: base64:678L4LUWeCJjgAxwUpgtEnLqiW4OmS7Og42HONUajYM=
+   APP_STORAGE: /tmp
+   CACHE_DRIVER: database
+   SESSION_DRIVER: database
+   DB_DATABASE: laravel
+   DB_USERNAME: root
+   DB_PASSWORD: apple
+   DB_SOCKET: "/cloudsql/plasma-bison-228907:us-east1:bison-db"
